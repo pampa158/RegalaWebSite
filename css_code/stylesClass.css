@@ -1,12 +1,14 @@
 .fondo_basico {
     position: relative;
-    margin-top: -10px;
+    margin: auto;
     width: 100%;
     height: 100vh; /* Ocupa toda la pantalla */
     background-image: url('../imagenes/background_5.png');
-    background-size: cover; /* Ajusta la imagen para cubrir el fondo */
+    background-size: contain, cover; /* Ajusta la imagen para cubrir el fondo */
     background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .platform_button:hover {
@@ -15,15 +17,17 @@
 }
 
 .platform_button:focus{
-    
+    font: optional;
 }
 
 .platform_button:active{
- 
+    font: optional;
 }
 
 .platform_button img {
+    max-width: 100%;
     border-radius: 150px;
+    display: block;
 }
 
 .platform_button {
@@ -33,14 +37,10 @@
     padding: 0;
     outline: none;
     cursor: pointer;
-    text-align:inherit;
-    transform: none;
-    scale: 11%;
-    margin-top: -20vh;
-    margin-bottom: -24vh;
-    margin-left: -47vw;
-    
+    transform: scale(0.15);
+    top: -3.7vh;
 }
+
 
 .whatsapp_button {
     background: none;
