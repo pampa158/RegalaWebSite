@@ -4,9 +4,6 @@ h1 {
     text-align: center;
     color:rgb(209, 146, 10);
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
-    /*margin-left: 10vh;
-    margin-top: 40vh;
-    */
 }
 /*  */
 h2 {
@@ -19,7 +16,6 @@ h2 {
     margin-top: 4%;
 }
 
-
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
@@ -27,12 +23,6 @@ p {
     text-align: center;
     color: ghostwhite;
     text-shadow: 2px 2px 4px #000000;
-
-    /*
-    margin-left: 10%;
-    margin-top: 20%;
-    margin-top: 0%;
-    */
 }
 
 
@@ -43,7 +33,6 @@ body {
     background-color: #000000;
     color: #f0f0f0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 button {
