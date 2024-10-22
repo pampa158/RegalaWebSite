@@ -3,7 +3,7 @@
     margin: auto;
     width: 100%;
     height: 100vh; /* Ocupa toda la pantalla */
-    background-image: url('../imagenes/background_4.png');
+    background-image: url('../imagenes/background_5.png');
     background-size: cover; /* Ajusta la imagen para cubrir el fondo */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat;
@@ -11,29 +11,45 @@
     overflow-y: hidden;
 }
 
+.orden p {
+    color: rgb(255, 230, 0);
+}
+
+.orden {
+    display: block;
+    margin-top: 17%;
+}
+
 .platform_button {
-    text-align: center;
+    width: 100%;
     position: absolute;
+    text-align: center;
     background: none;
     border: none;
     padding: 0;
     outline: none;
     cursor: pointer;
-    transform: scale(14%);
-    top: 0%;
+    transform: scale(0.12);
+    top: -17%;
+    left: -41%;
+}
+
+.platform_button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .platform_button img {
-    max-width: 100%;
     border-radius: 150px;
-    display: block;
 }
 
-.platform_button:hover {
-    padding: 0.3%;
-    transition: padding 0.5s ease;
+.platform_button img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
 }
 
+/*
 .platform_button:focus{
     font: optional;
 }
@@ -41,31 +57,29 @@
 .platform_button:active{
     font: optional;
 }
+*/
 
-.whatsapp_button {
-    background: none;
-    border: none;
-    padding: 0;
-    outline: none;
-    cursor: pointer;
-    text-align: center;
-    transform: scale(0.3);
-    margin-top: -20%;
-    margin-left: -20%;
-    /*
-    width: 130vw;
-    margin-bottom: -30vh;
-    margin-left: -1.5vw;
-    margin-top: 20vh;
-    padding: 1% 1%;
-    */
+
+.whatsapp_button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.min_balance {
+.whatsapp_button img {
+    width: 50%;
+    height: auto;
+}
+
+.whatsapp_button img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+.min_balance p {
     text-transform: capitalize;
-    color: rgb(255, 255, 255);
-    margin-top: -16%;
-    text-shadow: 2px 3px 3px black;
+    text-shadow: 2px 3px 3px rgb(0, 0, 0);
+    margin-top: 2%;
 }
 
 
